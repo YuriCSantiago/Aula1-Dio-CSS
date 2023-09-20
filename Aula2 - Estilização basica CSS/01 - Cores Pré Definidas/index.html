@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <style>
+        #current-color {
+            color: orange;
+            border: 2px solid currentColor;
+        }
+
+        #rgb {
+            color: rgb(255, 0, 0);
+        }
+
+        #rgba {
+            color: rgba(255, 0, 0, 0.3);
+        }
+
+        #hex {
+            color: #0000ff;
+        }
+
+        #hsl {
+            background: hsl(0, 100%, 80%);
+        }
+
+        #hsla {
+            background: hsla(0, 100%, 50%, .8);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cores</h1>
+    <p>Existem várias formas de definirmos cores utilizando o CSS, Elas são:</p>
+    <ul>
+        <li id="pre-definidas">Cores pré-definidas</li>
+        <li id="current-color">Palavra-chave "currentcolor"</li>
+        <li id="rgba">RGBA</li>
+        <li id="rgb">RGB</li>
+        <li id="hex">Hexadecimal</li>
+        <li id="hex-transparencia">Hexadecimal com transparência</li>
+        <li id="hsl">HSL</li>
+        <li id="hsla">HSLA</li>
+    </ul>
+
+    <hr>
+
+    <h3>HSL</h3>
+    <code>hsl(hue, saturation, lightness)</code>
+    <ul>
+        <li>
+            <b>Hue (matiz:</b> é o grau na roda de cores (de 0 a 360 graus)
+            <ul>
+                <li>0 ou 360 é vermelho</li>
+                <li>120 é verde</li>
+                <li>240 é azul</li>
+            </ul>
+        </li>
+        <b>Saturation (saturação):</b> valor percentual
+        <ul>
+            <li>0% um tom cinza</li>
+            <li>100% cor total</li>
+        </ul>
+        <b>Lightness (luminosidade)</b> luminosidade da cor
+        <ul>
+            <li>0% é preto</li>
+            <li>100% é branco</li>
+        </ul>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,600&display=swap');
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../img/istockphoto-1275241715-612x612-removebg-preview.png'), url('../img/shutterstock_1893479695-810x540.jpg');
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+#cover {
+    background-size: cover;
+    
+}
+
+#contain {
+    background-size: contain;
+}
+
+#tamanho {
+    background-size: 50%;
+    
+}
+
+#exemplo-x-y {
+    background-size: 200px 100%;
+}
+
+#exemplo-camadas {
+    background-size: contain, cover;
+}
